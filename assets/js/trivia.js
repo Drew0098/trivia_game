@@ -35,7 +35,7 @@ const myQuestions = [
       " 40",
       " 28"
     ],
-    correctAnswer: 3
+    correctAnswer: 0
   },
   {
     question: "4. 4a+9=21. What is the value of a?",
