@@ -1,0 +1,59 @@
+html {
+	background-image: url(math.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#container {
+	height: 300px;
+	width: 400px;
+	background-color: green;
+	margin: auto;
+	margin-top: 100px;
+	border: 2px solid gray;
+	border-radius: 5px;
+}
+#timer {
+	text-align: center;
+}
+#question {
+	font-size: 25px;
+	text-align: center;
+}
+#answers {
+	font-size: 25px;
+	list-style-type: none;
+}
+#results {
+	font-size: 25px;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 0px;
+	font-size: 40px;
+}
+#begin {
+	width: 50px;
+	position: relative;
+	left: 175px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+#begin:hover {
+	width: 52px;
+	height: 22px;
+}
+#tryAgain {
+	width: 50px;
+	position: relative;
+	left: 175px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+#tryAgain:hover {
+	width: 52px;
+	height: 40px;
+}
+input[type="radio"] {
+	cursor: pointer;
+}
